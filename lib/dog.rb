@@ -12,7 +12,6 @@ class Dog
   end
   
   def self.print_all
-   new_array = []
     @@all.each do |dogs|
       return "#{dogs}"
     end
